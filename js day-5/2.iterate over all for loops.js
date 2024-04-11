@@ -18,3 +18,13 @@ for(var r in resume)
 {
     console.log(r,resume);
 }
+
+
+//for of loop
+
+for(var newdata of resume){
+    console.log(newdata,"for of loop");
+}
+
+//foreach loop
+resume.forEach(numbers=>{console.log(numbers,"foreach loop")});
